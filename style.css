@@ -32,6 +32,7 @@ html,
     box-shadow: 1rem 1rem 1rem black;
     transition-timing-function: ease-in-out;
     transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    
 }
 .galleryheader{
     background-color: grey;
@@ -51,4 +52,89 @@ html,
 .gallerycard:hover{
     transform: scale(1.1);
 
+}
+#leg{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    background-color: grey;
+    box-shadow: 1rem 1rem 1rem black;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#leg:hover{
+    transform: rotate(720deg);
+}
+#arm{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    background-color: grey;
+    box-shadow: 1rem 1rem 1rem black;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#arm:hover{
+    transform: rotatex(180deg);
+}
+#hand{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    background-color: grey;
+    box-shadow: 1rem 1rem 1rem black;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#hand:hover{
+    transform: skewX(10deg);
+}
+#nose{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    background-color: grey;
+    box-shadow: 1rem 1rem 1rem black;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#nose:hover{
+    transform: skewX(-20deg);
+}
+#torso{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    background-color: grey;
+    box-shadow: 1rem 1rem 1rem black;
+    transition-timing-function: ease-in-out;
+    transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#torso:hover{
+    transform: rotate(1920deg);
+}
+
+@media (max-width: 1920px){
+    .gallerycard,
+    #leg,
+    #arm,
+    #hand,
+    #nose,
+    #torso
+}
+@media (max-width:1200px){
+    .gallerycard,
+    #leg,
+    #arm,
+    #hand,
+    #nose,
+    #torso
+}
+@media (max-width: 600px){
+    .gallerycard,
+    #leg,
+    #arm,
+    #hand,
+    #nose,
+    #torso 
 }
